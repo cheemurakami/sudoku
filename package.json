@@ -1,0 +1,24 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "Readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheemurakami/sudoku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheemurakami/sudoku/issues"
+  },
+  "homepage": "https://github.com/cheemurakami/sudoku#readme",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
