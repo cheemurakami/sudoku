@@ -4,8 +4,9 @@
   "description": "Readme",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
-  },
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cheemurakami/sudoku.git"
@@ -24,6 +25,7 @@
     "style-loader": "^1.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
